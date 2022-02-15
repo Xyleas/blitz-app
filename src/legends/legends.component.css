@@ -1,0 +1,12 @@
+nav{
+    display: block;
+    background-color: black;
+}
+
+a{
+    font-weight: 600;
+    font-size: var(--sp-3_5);
+    line-height: var(--sp-4);
+    letter-spacing: -0.009em;
+    color: white;
+}
