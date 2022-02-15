@@ -1,10 +1,11 @@
-ul {
+nav{
     background-color: black;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-li {
-    display: inline;
+a{
+    font-weight: 600;
+    font-size: var(--sp-3_5);
+    line-height: var(--sp-4);
+    letter-spacing: -0.009em;
+    color: white;
 }
