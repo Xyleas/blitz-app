@@ -5,6 +5,6 @@ import { Component } from "@angular/core";
     templateUrl: 'center.component.html',
     styleUrls: ['./center.component.css']
 })
-export class BodyComponent{
+export class CenterComponent{
     title = 'blitz-app';
 }
