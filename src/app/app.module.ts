@@ -11,7 +11,8 @@ import { FortniteComponent } from 'src/fortnite/fortnite.component';
 import { LeagueComponent } from 'src/league/league.component';
 import { ValorantComponent } from 'src/valorant/valorant.component';
 import { TeamfightTacticesComponent } from 'src/tactics/tactics.component';
-
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'; 
 
 @NgModule({
   declarations: [
@@ -23,13 +24,13 @@ import { TeamfightTacticesComponent } from 'src/tactics/tactics.component';
     LeagueComponent,
     ValorantComponent,
     TeamfightTacticesComponent,
-    CenterComponent
-    
-    
+    CenterComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
