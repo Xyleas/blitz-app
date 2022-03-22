@@ -1,8 +1,8 @@
-<p *ngIf="myInfo == undefined"> Failed fetching user data</p>
-<div *ngIf="myInfo != undefined" class="container-fluid bg-dark">
+<p *ngIf="Agents == undefined"> Failed fetching user data</p>
+<div *ngIf="Agents != undefined" class="container-fluid bg-dark">
     <div class="row">
         <div class="col-3">
-            User: {{myInfo.FirstName}} {{myInfo.LastName}}
+            List of Agents: {{Agents.Name}}
         </div>
         <div class="col-6 ">
             <a href="{{myInfo.GitHub}}"> GitHub: {{myInfo.GitHub}}</a>

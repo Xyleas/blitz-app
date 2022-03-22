@@ -18,7 +18,7 @@ export class UserInfoComponent implements OnInit {
   }
 
   getUserInfo(){
-    return this.http.get<UserInfo>('https://blitz-app-9e530-default-rtdb.firebaseio.com/.json');
+    return this.http.get<UserInfo>('https://blitz-app-f2cb6-default-rtdb.firebaseio.com/myInfo.json');
   }
 
   showUserInfo(){

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "blitz-app-f2cb6"
+  },
+  "targets": {
+    "blitz-app-f2cb6": {
+      "hosting": {
+        "blitz-app": [
+          "blitz-app-f2cb6"
+        ]
+      }
+    }
+  }
+}
