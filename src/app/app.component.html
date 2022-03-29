@@ -7,8 +7,43 @@
     </head>
     <body class="bg-dark">
         <fm-user-info></fm-user-info>
-        <app-navbar>
-        </app-navbar>
+        <app-navbar></app-navbar>
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <form action="">
+                        <div class="input-group">
+                            <span class="input-group-text">Agent Name</span>
+                            <input type="text" class="form-control">
+                        </div>
+        
+                        <div class="input-group">
+                            <span class="input-group-text">Q</span>
+                            <input type="text" class="form-control" required ngModel name="Q">
+                        </div>
+        
+                        <div class="input-group">
+                            <span class="input-group-text">E</span>
+                            <input type="text" class="form-control" required ngModel name="E">
+                        </div>
+        
+                        <div class="input-group">
+                            <span class="input-group-text">C</span>
+                            <input type="text" class="form-control" ngModel name="C">
+                        </div>
+        
+                        <div class="input-group">
+                            <span class="input-group-text">X</span>
+                            <input type="text" class="form-control" ngModel name="X">
+                        </div>
+        
+                        <button class="btn btn-dark" type="submit">
+                            Image Path
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
        
 
         <footer>
