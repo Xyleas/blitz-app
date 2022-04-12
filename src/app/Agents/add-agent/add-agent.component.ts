@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Agent } from "http";
-import { Agents } from "../Agents-model.service";
+
 
 @Component({
     selector: 'fm-add-agent',
