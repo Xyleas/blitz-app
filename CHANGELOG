@@ -1,4 +1,6 @@
 Release Notes:
+4/13/2022
+Added 5 unit tests for checking that varying components work.
 4/12/2022
 Added user authentication methods.
 Merging restarted project to new project with following changes:
